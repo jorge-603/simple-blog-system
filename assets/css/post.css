@@ -1,0 +1,85 @@
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #1b1b1f;
+        }
+
+        .post-container {
+            background-color: #202127;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            width: 500px;
+        }
+
+        .post-container h2 {
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            color: #fff;
+            text-align: center;
+        }
+
+        .post-container label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .post-container input,
+        .post-container textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+            resize: none;
+        }
+
+        .post-container input:focus,
+        .post-container textarea:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+
+        .post-container button {
+            width: 100%;
+            padding: 10px;
+            background: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .post-container button:hover {
+            background: #0056b3;
+        }
+
+        .post-container .actions {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+
+        .post-container .actions a {
+            color: #007bff;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .post-container .actions a:hover {
+            text-decoration: underline;
+        }
